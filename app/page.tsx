@@ -2,6 +2,7 @@
 
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import { MyProjects } from "@/components/MyProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 
@@ -12,6 +13,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <MyProjects />
       </div>
     </main>
   );

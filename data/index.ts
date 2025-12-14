@@ -68,3 +68,38 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+export const myProjects = [
+  {
+    id: 1,
+    title: "Share Your Moments - Social Media App",
+    des: "A moment sharing app where user can login and create, edit, like and delete posts. Built with MERN tech stack.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "/github.com/anushkadubey/Share-Your-Moments",
+  },
+  {
+    id: 2,
+    title: "Twitter Bot - Keyword Link Generator",
+    des: "A Node JS based Twitter Bot that gives links to all the tweets which contain a specific keyword.",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "/github.com/anushkadubey/Twitter-Bot",
+  },
+  {
+    id: 3,
+    title: "NewsMan - News App",
+    des: "ReactJS based app built using news api to display different category news.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "/github.com/anushkadubey/NewsWeb",
+  },
+  {
+    id: 4,
+    title: "Microsoft Teams UI Clone",
+    des: "Recreated Microsoft Team's UI using React JS and CSS.",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/github.com/anushkadubey/Microsoft-Teams-Clone",
+  },
+];
