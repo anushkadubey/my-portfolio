@@ -17,6 +17,7 @@ export const MyProjects = () => {
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
+            onClick={()=> {window.open(item.link, "_blank")}}
           >
             <PinContainer
               title={item.link}
@@ -65,11 +66,11 @@ export const MyProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                <div className="flex justify-center items-center" onClick={()=> {window.open(item.link, "_blank")}}>
+                  <p className="flex lg:text-md md:text-xs text-sm text-purple">
                     Check It Out!
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-1 text-sm" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>
