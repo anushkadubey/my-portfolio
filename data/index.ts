@@ -151,8 +151,8 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: "https://twitter.com/anushkadubey",
+    img: "/leetcode.png",
+    link: "https://leetcode.com/u/noosh06/",
   },
   {
     id: 3,
