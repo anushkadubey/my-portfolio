@@ -1,9 +1,11 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { MyProjects } from "@/components/MyProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import WorkExperience from "@/components/WorkExperience";
 import { navItems } from "@/data";
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
         <Hero />
         <Grid />
         <MyProjects />
+        <WorkExperience />
+        <Footer />
       </div>
     </main>
   );
